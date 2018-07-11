@@ -27,6 +27,7 @@ public class UserNameValidation {
 		   System.out.println("User name is not valid");
 		}
 		in.close();
+		in.hashCode();
 		//Changes added to User Name Validation
 	}
 	
