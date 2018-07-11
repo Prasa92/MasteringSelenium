@@ -27,11 +27,11 @@ public class UserNameValidation {
 		   System.out.println("User name is not valid");
 		}
 		in.close();
+		//Changes added to User Name Validation
 	}
 	
 	public Boolean UserValidator(String name){
 		matcher= pattern.matcher(name);
 		return matcher.matches();
-	}
-	
+	}	
 }
